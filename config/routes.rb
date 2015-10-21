@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_p_ages/home'
+
+  get 'static_p_ages/help'
+
   resources :microposts
   resources :users
   root 'users#index'
